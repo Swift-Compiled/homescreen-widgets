@@ -12,14 +12,11 @@ class MovieUpdater {
     var timer: Timer? = nil
     var movies: [Movie] = [
         Movie(name: "Avengers: Infinity War",
-              movieImageName: "infinity",
-              releaseDate: "01/06/2018"),
+              movieImageName: "infinity"),
         Movie(name: "Avengers: End Game",
-              movieImageName: "endgame",
-              releaseDate: "19/07/2019"),
+              movieImageName: "endgame"),
         Movie(name: "Guardians of the Galaxy Volume 3", 
-                movieImageName: "gog3",
-              releaseDate: "20/12/2021")
+                movieImageName: "gog3")
     ]
     
     init() {

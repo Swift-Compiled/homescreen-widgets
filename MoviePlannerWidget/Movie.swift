@@ -10,9 +10,8 @@ import Foundation
 struct Movie {
     let name: String
     let movieImageName: String
-    let releaseDate: String
     
     static var empty: Movie {
-        Movie(name: "", movieImageName: "", releaseDate: "")
+        Movie(name: "", movieImageName: "")
     }
 }
